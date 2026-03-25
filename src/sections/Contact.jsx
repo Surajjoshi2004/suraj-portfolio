@@ -3,10 +3,11 @@ import { personal } from '../data/portfolio';
 import './Contact.css';
 
 const contactLinks = [
-  { label: 'EMAIL',    value: personal.email,    href: `mailto:${personal.email}`,   icon: '✉' },
-  { label: 'GITHUB',   value: 'github.com/surajjoshi', href: personal.github, icon: null, isGH: true },
+  personal.phone ? { label: 'PHONE', value: personal.phone, href: `tel:${personal.phone.replace(/\s+/g, '')}`, icon: '☎' } : null,
+  { label: 'EMAIL', value: personal.email, href: `mailto:${personal.email}`, icon: '✉' },
+  { label: 'GITHUB', value: 'github.com/surajjoshi', href: personal.github, icon: null, isGH: true },
   { label: 'LINKEDIN', value: 'linkedin.com/in/surajjoshi', href: personal.linkedin, icon: 'in' },
-];
+].filter(Boolean);
 
 export default function Contact() {
   const [sent, setSent] = useState(false);
