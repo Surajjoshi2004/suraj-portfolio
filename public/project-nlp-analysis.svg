@@ -1,0 +1,25 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#14091E"/>
+  <rect x="36" y="36" width="1208" height="648" rx="28" fill="url(#bg)"/>
+  <rect x="152" y="128" width="438" height="456" rx="26" fill="#111827" fill-opacity="0.92" stroke="#312E81"/>
+  <rect x="194" y="190" width="316" height="20" rx="10" fill="#CBD5E1"/>
+  <rect x="194" y="236" width="280" height="20" rx="10" fill="#94A3B8"/>
+  <rect x="194" y="282" width="334" height="20" rx="10" fill="#CBD5E1"/>
+  <rect x="194" y="328" width="246" height="20" rx="10" fill="#94A3B8"/>
+  <rect x="194" y="410" width="140" height="48" rx="24" fill="#4F46E5"/>
+  <text x="227" y="442" fill="#EEF2FF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Positive</text>
+  <rect x="350" y="410" width="132" height="48" rx="24" fill="#0891B2"/>
+  <text x="381" y="442" fill="#ECFEFF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Entity</text>
+  <rect x="680" y="164" width="432" height="392" rx="28" fill="#0F172A" fill-opacity="0.82" stroke="#334155"/>
+  <circle cx="812" cy="304" r="78" fill="#312E81"/>
+  <path d="M776 304L801 329L852 278" stroke="#E0E7FF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="748" y="444" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Sentiment</text>
+  <text x="748" y="489" fill="#A5B4FC" font-family="Arial, Helvetica, sans-serif" font-size="24">Keyword extraction</text>
+  <text x="748" y="527" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="24">Text classification</text>
+  <defs>
+    <linearGradient id="bg" x1="108" y1="74" x2="1187" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E1B4B"/>
+      <stop offset="1" stop-color="#164E63"/>
+    </linearGradient>
+  </defs>
+</svg>

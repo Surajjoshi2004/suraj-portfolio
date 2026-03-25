@@ -1,0 +1,28 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#180A08"/>
+  <rect x="36" y="36" width="1208" height="648" rx="28" fill="url(#bg)"/>
+  <rect x="116" y="128" width="772" height="436" rx="28" fill="#0F172A" stroke="#7C2D12"/>
+  <rect x="156" y="172" width="692" height="300" rx="20" fill="url(#screen)"/>
+  <circle cx="502" cy="322" r="78" fill="#F97316" fill-opacity="0.92"/>
+  <path d="M479 276L556 322L479 368V276Z" fill="#FFF7ED"/>
+  <rect x="156" y="500" width="240" height="18" rx="9" fill="#CBD5E1"/>
+  <rect x="156" y="534" width="174" height="14" rx="7" fill="#94A3B8"/>
+  <rect x="938" y="162" width="214" height="128" rx="24" fill="#0F172A" fill-opacity="0.92" stroke="#9A3412"/>
+  <rect x="966" y="194" width="94" height="12" rx="6" fill="#FDBA74"/>
+  <rect x="966" y="224" width="144" height="12" rx="6" fill="#CBD5E1"/>
+  <rect x="938" y="326" width="214" height="128" rx="24" fill="#0F172A" fill-opacity="0.92" stroke="#9A3412"/>
+  <rect x="966" y="358" width="126" height="12" rx="6" fill="#FDBA74"/>
+  <rect x="966" y="388" width="112" height="12" rx="6" fill="#CBD5E1"/>
+  <rect x="938" y="490" width="214" height="74" rx="24" fill="#0F172A" fill-opacity="0.92" stroke="#9A3412"/>
+  <text x="972" y="536" fill="#FFEDD5" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">PlayPulse</text>
+  <defs>
+    <linearGradient id="bg" x1="104" y1="84" x2="1170" y2="645" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#431407"/>
+      <stop offset="1" stop-color="#7C2D12"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="169" y1="188" x2="800" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB923C"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+</svg>

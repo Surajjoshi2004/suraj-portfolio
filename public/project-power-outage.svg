@@ -1,0 +1,21 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#07111F"/>
+  <rect x="36" y="36" width="1208" height="648" rx="28" fill="url(#bg)"/>
+  <path d="M163 522C258 413 369 406 448 475C518 536 607 537 691 449C802 331 955 319 1082 433" stroke="#38BDF8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M163 570C267 496 370 507 443 553C517 600 607 596 689 541C807 461 952 455 1087 528" stroke="#0EA5E9" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="279" cy="425" r="18" fill="#F8FAFC"/>
+  <circle cx="514" cy="520" r="18" fill="#F8FAFC"/>
+  <circle cx="726" cy="420" r="18" fill="#F8FAFC"/>
+  <circle cx="982" cy="376" r="18" fill="#F8FAFC"/>
+  <path d="M857 160L788 312H867L821 460L985 249H889L952 160H857Z" fill="#FACC15"/>
+  <rect x="132" y="126" width="278" height="172" rx="20" fill="#0F172A" fill-opacity="0.88" stroke="#1E293B"/>
+  <text x="168" y="180" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Outage Risk</text>
+  <text x="168" y="226" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">92%</text>
+  <text x="168" y="266" fill="#38BDF8" font-family="Arial, Helvetica, sans-serif" font-size="24">XGBoost Model</text>
+  <defs>
+    <linearGradient id="bg" x1="92" y1="84" x2="1161" y2="648" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#082F49"/>
+    </linearGradient>
+  </defs>
+</svg>

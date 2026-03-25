@@ -1,0 +1,114 @@
+#certificates {
+  padding: 7rem 6vw;
+  position: relative;
+  background: var(--bg2);
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.certificate-card {
+  padding: 1.8rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.cert-image {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.certificate-card:hover {
+  border-color: rgba(0, 102, 255, 0.3);
+  box-shadow: 0 8px 24px rgba(0, 102, 255, 0.08);
+  transform: translateY(-4px);
+}
+
+.cert-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  background: rgba(0, 102, 255, 0.08);
+  border-radius: 10px;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.cert-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.certificate-card:hover .cert-icon {
+  background: rgba(0, 102, 255, 0.12);
+  transform: scale(1.05);
+}
+
+.cert-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 1rem 0 0.5rem 0;
+}
+
+.cert-issuer {
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.cert-date {
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  color: var(--muted);
+  margin: 0.8rem 0;
+}
+
+.cert-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  transition: all 0.3s ease;
+}
+
+.cert-link:hover {
+  color: var(--text);
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  #certificates {
+    padding: 5.5rem 4vw;
+  }
+
+  .certificates-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-card {
+    padding: 1.25rem;
+  }
+}

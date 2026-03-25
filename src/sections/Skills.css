@@ -1,0 +1,50 @@
+#skills { text-align: center; }
+
+.skills-subtitle { color: var(--muted); font-size: 0.95rem; margin-top: 0.6rem; }
+
+.skills-icon-grid {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 2rem 2.5rem; margin-top: 3.5rem;
+}
+
+.skill-icon-card {
+  display: flex; flex-direction: column; align-items: center; gap: 0.75rem;
+  animation: icon-pop 0.4s ease both; cursor: default;
+}
+@keyframes icon-pop {
+  from { opacity: 0; transform: scale(0.7) translateY(12px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.skill-icon-wrap {
+  width: 90px; height: 90px;
+  background: var(--surface);
+  border: 1px solid var(--border); border-radius: 22px;
+  display: flex; align-items: center; justify-content: center;
+  position: relative; overflow: hidden;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.skill-icon-wrap svg { width: 54px; height: 54px; position: relative; z-index: 1; transition: transform 0.25s ease; }
+.skill-icon-glow {
+  position: absolute; inset: -20%;
+  background: radial-gradient(circle, rgba(0,102,255,0.1), transparent 70%);
+  opacity: 0; transition: opacity 0.3s ease; pointer-events: none;
+}
+.skill-icon-card:hover .skill-icon-wrap {
+  transform: translateY(-6px);
+  border-color: rgba(0,102,255,0.35);
+  box-shadow: 0 12px 32px rgba(0,102,255,0.14);
+}
+.skill-icon-card:hover .skill-icon-glow { opacity: 1; }
+.skill-icon-card:hover .skill-icon-wrap svg { transform: scale(1.1); }
+
+.skill-fallback { font-family: var(--font-mono); font-size: 1.4rem; font-weight: 700; color: var(--accent); }
+.skill-icon-label { font-family: var(--font-mono); font-size: 0.72rem; color: var(--text); letter-spacing: 0.04em; text-align: center; transition: color 0.2s; }
+.skill-icon-card:hover .skill-icon-label { color: var(--accent); }
+
+@media (max-width: 768px) {
+  .skills-icon-grid { gap: 1.5rem 1.8rem; }
+  .skill-icon-wrap { width: 72px; height: 72px; border-radius: 18px; }
+  .skill-icon-wrap svg { width: 42px; height: 42px; }
+}

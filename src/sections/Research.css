@@ -1,0 +1,131 @@
+#research {
+  padding: 6rem 6vw;
+  position: relative;
+  background: linear-gradient(135deg, rgba(0,102,255,0.02) 0%, rgba(0,180,216,0.02) 100%);
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.research-card {
+  padding: 2rem;
+  background: rgba(45, 45, 50, 0.4);
+  border: 1px solid rgba(0, 102, 255, 0.15);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.research-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0, 102, 255, 0.1), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.research-card:hover {
+  border-color: rgba(0, 102, 255, 0.4);
+  background: rgba(45, 45, 50, 0.6);
+  transform: translateY(-8px);
+}
+
+.research-card:hover::before {
+  opacity: 1;
+}
+
+.research-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.research-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.research-status {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.35rem 0.7rem;
+  border-radius: 0.3rem;
+  white-space: nowrap;
+  position: relative;
+  z-index: 1;
+}
+
+.research-status.in-progress {
+  background: rgba(255, 200, 0, 0.1);
+  color: #ffc800;
+  border: 1px solid rgba(255, 200, 0, 0.2);
+}
+
+.research-status.completed {
+  background: rgba(0, 255, 100, 0.1);
+  color: #00ff64;
+  border: 1px solid rgba(0, 255, 100, 0.2);
+}
+
+.research-desc {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 1rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.research-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.keyword-tag {
+  font-size: 0.75rem;
+  padding: 0.35rem 0.7rem;
+  background: rgba(0, 102, 255, 0.08);
+  border: 1px solid rgba(0, 102, 255, 0.2);
+  border-radius: 0.3rem;
+  color: var(--accent);
+  transition: all 0.3s ease;
+}
+
+.keyword-tag:hover {
+  background: rgba(0, 102, 255, 0.15);
+  border-color: rgba(0, 102, 255, 0.4);
+}
+
+@media (max-width: 768px) {
+  #research {
+    padding: 4rem 4vw;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+}

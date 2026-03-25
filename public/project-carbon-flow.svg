@@ -1,0 +1,21 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#08130F"/>
+  <rect x="36" y="36" width="1208" height="648" rx="28" fill="url(#bg)"/>
+  <circle cx="958" cy="252" r="146" fill="#22C55E" fill-opacity="0.14"/>
+  <circle cx="958" cy="252" r="102" fill="#4ADE80" fill-opacity="0.18"/>
+  <circle cx="958" cy="252" r="58" fill="#BBF7D0"/>
+  <path d="M958 198C943 173 903 160 879 171C915 188 934 218 936 250C958 244 978 229 989 209C980 208 966 205 958 198Z" fill="#14532D"/>
+  <path d="M969 263C944 255 908 277 894 300C931 300 963 286 983 270C979 268 974 265 969 263Z" fill="#166534"/>
+  <path d="M187 523C307 439 406 416 520 451C616 480 706 461 822 392C926 331 1024 326 1110 367" stroke="#86EFAC" stroke-width="12" stroke-linecap="round"/>
+  <path d="M187 574C289 526 377 514 507 541C633 567 743 551 860 506C949 472 1039 466 1112 485" stroke="#22C55E" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+  <rect x="128" y="132" width="328" height="182" rx="22" fill="#0F172A" fill-opacity="0.84" stroke="#14532D"/>
+  <text x="164" y="186" fill="#DCFCE7" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Carbon Flow AI</text>
+  <text x="164" y="236" fill="#F0FDF4" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700">-18.4%</text>
+  <text x="164" y="275" fill="#86EFAC" font-family="Arial, Helvetica, sans-serif" font-size="24">Emission trend detected</text>
+  <defs>
+    <linearGradient id="bg" x1="106" y1="86" x2="1174" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#052E16"/>
+      <stop offset="1" stop-color="#022C22"/>
+    </linearGradient>
+  </defs>
+</svg>
